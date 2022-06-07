@@ -1,0 +1,8 @@
+#include <stdio.h>
+int main() {
+  int a, b, x;
+  a= 7, b=4;
+  x=a&b;
+  
+  printf("%d",x);
+}
