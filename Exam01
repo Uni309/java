@@ -1,13 +1,13 @@
-#include <stdio.h>
-int main() {
-  int a, b, x;
-  a= 7, b=4;
-  x=a&b;
+public class Method02 {
+  public static void main(String args[]) {
+    int a = 10;
+    sum(a);
+    System.out.pritnln(a);
+  }
   
-  printf("%d",x);
+  public static void sum(int a) {
+    a=a+1;
+  }
 }
-//비트를 이용해 문제를 풀수있다.
-//111
-//100
-//100
-//정답은 4
+// a=a+1; 앞에 return이 없기 때문에 아래 구문은 실행 시키지 않고, 그대로 10이 출력된다.
+    
