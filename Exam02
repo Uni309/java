@@ -1,0 +1,12 @@
+public class Method01 {
+  public static void main(String args[]) {
+    int a=sum(3, 4);
+    System.out.println(a);
+  }
+  
+  public static int sum(int a, int b){
+    int sum;
+    return sum=a+b;
+  }
+}
+//return이 있기 때문에, 아래 구문을 실행시킨다. 정답은 7
