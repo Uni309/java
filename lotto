@@ -1,0 +1,26 @@
+
+public class LottoTest {
+
+	public static void main(String[] args) {
+		// 로또번호 생성기
+		int temp, j;
+		int[] lotto = new int[45];
+		for(int i = 0; i<45; i++) {
+			lotto[i]=i+1;
+			System.out.println(lotto[i]);
+		}
+		//로또번호 섞기 swap알고리즘 로또번호 100번 섞기
+		for(int i=0; i<100; i++) {
+			j = (int)(Math.random()*45);//0~44까지의 임의의 정수값
+			temp=lotto[0];
+			lotto[0] = lotto[j];
+			lotto[j]=temp;
+		}
+		
+		
+		for(int i = 0; i<45; i++) {
+			System.out.println(lotto[i]);
+		}
+	}
+
+}
