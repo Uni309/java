@@ -1,0 +1,24 @@
+package classtest02;
+
+public class Car {
+	String company = "현대자동차";
+	String model = "제네시스";
+	String color = "검정";
+	int maxspeed = 300;
+	int speed;
+	int power;
+
+	/*an = pow
+	//생성자
+	Car(){
+		speed = 30;
+		System.out.println(company);
+	}
+	
+	//메소드 method
+	void run() {
+		speed = 30;
+		System.out.println(speed);
+	}
+	*/
+}
