@@ -1,0 +1,20 @@
+package FieldTest;
+
+public class FieldValue {
+	//필드
+	byte bytefield;
+	char charfield;
+	short shortfield;
+	float floatfield = 3.14f;
+	boolean booleanfield;
+	
+	int[] arrfield;
+	
+	//생성자
+	public FieldValue() {
+		
+	}
+	
+	
+	//메소드
+}
